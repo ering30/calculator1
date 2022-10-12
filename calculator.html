@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<lang=en></lang>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Calculator</h1>
+    </header>
+    <form name="myCalculator"></form>
+    <div>
+        <h4>Enter the first number here:</h4>
+        <input required type="text" id="number1" name="firstNumber" placeholder="Enter a Number"><br><br>
+        <h4>Enter the second number here:</h4>
+        <input required type="text" id="number2" name="secondNumber" placeholder="Enter a Number"><br><br>
+    </div>
+    </form>
+    <script src="calculator2.js"></script>
+
+    <div>
+        <button onclick="addButton()"> + </button>
+        <button onclick="subtractButton()"> - </button>
+        <button onclick="multiplyButton()"> x </button>
+        <button onclick="divideButton()"> ÷ </button>
+    </div>
+
+    <div>
+        <h4>Result:</h4>
+        <h5 id="result">0</h5>
+    </div>
+</body>
+
+
+
